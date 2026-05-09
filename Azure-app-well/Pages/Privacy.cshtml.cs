@@ -7,6 +7,7 @@ namespace Azure_app_well.Pages
     {
         public void OnGet()
         {
+            throw new Exception("This is a test exception for Azure Application Insights.");
         }
     }
 
